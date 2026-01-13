@@ -40,3 +40,21 @@ header{
     color: rgb(0, 0, 0);
     font-size: xx-large;
 }
+.page-card{
+  height:300px;
+  width: 300px;
+  display: inline-block;
+  border-radius: 30px;
+  margin: 20px;
+}
+.page-description{
+  width: fir fit-content;
+}
+.page-title{
+  text-align: center;
+  font-size: 2rem;
+  background-image: linear-gradient(45deg, rgb(224, 124, 141) 30%,  rgb(191, 130, 162) 20%, rgb(189, 74, 137) 25%);
+  width: auto;
+  height: auto;
+  margin:20px;
+}
