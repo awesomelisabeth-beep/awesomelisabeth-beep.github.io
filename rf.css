@@ -44,19 +44,22 @@ header{
     font-size: xx-large;
 }
 .page-card{
-  height:300px;
+  height:400px;
   width: 300px;
   display: inline-block;
   border-radius: 30px;
   margin: 20px;
+  background-color: #d87c96;
+  justify-items: center;
+  border: #d8817c;
 }
 .page-description{
-  width: fir fit-content;
+  width: fit-content;
 }
 .page-title{
   text-align: center;
   font-size: 2rem;
-  background-image: linear-gradient(45deg, rgb(224, 124, 141) 30%,  rgb(191, 130, 162) 20%, rgb(189, 74, 137) 25%);
+  background-image: linear-gradient(45deg, #ca427d 15%, rgb(211, 104, 80) 55%, rgb(224, 190, 126) 90%);
   width: auto;
   height: auto;
   margin:20px;

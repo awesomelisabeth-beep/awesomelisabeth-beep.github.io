@@ -5,4 +5,14 @@
   padding-bottom: 20px;
   background-image: linear-gradient(45deg, #ca427d 15%, rgb(211, 104, 80) 55%, rgb(224, 190, 126) 90%);
   corner-shape: bevel ;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.container{
+    display: flex;
+    gap: 3rem;
+}
+body{
+    padding: auto;
+    margin: auto;
 }
