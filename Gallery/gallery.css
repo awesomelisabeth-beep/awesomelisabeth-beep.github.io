@@ -1,0 +1,8 @@
+.img-card{
+  padding: 5rem;
+  border: #d87cc6 solid 1rem;
+  border-radius: 30px;
+  padding-bottom: 20px;
+  background-image: linear-gradient(45deg, #ca427d 15%, rgb(211, 104, 80) 55%, rgb(224, 190, 126) 90%);
+  corner-shape: bevel ;
+}
