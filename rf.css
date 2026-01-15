@@ -43,6 +43,15 @@ header{
     color: rgb(0, 0, 0);
     font-size: xx-large;
 }
+
+
+img{
+  margin: auto;
+  justify-self: center;
+  align-self: center;
+}
+
+
 .page-card{
   height:400px;
   width: 300px;
@@ -59,7 +68,7 @@ header{
 .page-title{
   text-align: center;
   font-size: 2rem;
-  background-image: linear-gradient(45deg, #ca427d 15%, rgb(211, 104, 80) 55%, rgb(224, 190, 126) 90%);
+  background-image: linear-gradient(45deg, #ca427d 15%, rgb(208, 96, 71) 55%, rgb(224, 190, 126) 90%);
   width: auto;
   height: auto;
   margin:20px;
