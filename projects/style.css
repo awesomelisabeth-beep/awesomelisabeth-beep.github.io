@@ -1,71 +1,92 @@
-body{
+body {
     background-color: #FDE992;
     margin: 0;
     padding: 0;
 }
-.container{
+
+.container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
+
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #d87cc6;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d87cc6;
 }
 
 ul li {
-  float: left;
+    float: left;
 }
 
 ul li a {
-  display: block;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 ul li a:hover {
-  background-color: #bf5392;
+    background-color: #bf5392;
 }
-.navv{
-    position: sticky;
-}
-.card{
-  height:400px;
-  width: 300px;
-  display: inline-block;
-  border-radius: 30px;
-  margin: 20px;
-  background-color: #d87c96;
-  justify-items: center;
-  border: #d8817c;
-  display: flex;
-}
-img{
-  margin: auto;
-  margin-top: 100px;
-  justify-content: center;
-  display: flex;
-  width: 200px;
-  border-radius: 10px;
-}
-h1{
-  text-align: center;
-  font-size: 2rem;
-  background-image: linear-gradient(45deg, #ca427d 15%, rgb(208, 96, 71) 55%, rgb(224, 190, 126) 90%);
-  width: 300px;
-  height: 40px;
-  margin:20px;
-  justify-content: center;
-}
-h2{
 
+.navv {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 30px;
+    margin: 20px;
+    background-color: #d87c96;
+    justify-items: center;
+    border: #d8817c;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    width: 180px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    background-image: linear-gradient(45deg, #ca427d 15%, rgb(208, 96, 71) 55%, rgb(224, 190, 126) 90%);
+    width: 260px;
+    height: 40px;
+    margin: 20px;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 5rem;
+}
+
+footer {
+    background-color: #d87cc6;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    text-align: center;
+    bottom: 0;
+    position: sticky;
 }
