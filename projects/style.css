@@ -1,11 +1,11 @@
-main{
-  padding: 0;
-  margin: 0;
-}
 body{
     background-color: #FDE992;
     margin: 0;
     padding: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 ul {
   list-style-type: none;
@@ -38,22 +38,7 @@ ul li a:hover {
 .navv{
     position: sticky;
 }
-header{
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-size: xx-large;
-}
-
-
-img{
-  margin: auto;
-  justify-content: center;
-  align-self: center;
-  display: flex;
-}
-
-
-.page-card{
+.card{
   height:400px;
   width: 300px;
   display: inline-block;
@@ -62,20 +47,25 @@ img{
   background-color: #d87c96;
   justify-items: center;
   border: #d8817c;
+  display: flex;
 }
-.page-description{
-  width: fit-content;
+img{
+  margin: auto;
+  margin-top: 100px;
+  justify-content: center;
+  display: flex;
+  width: 200px;
+  border-radius: 10px;
 }
-.page-title{
+h1{
   text-align: center;
   font-size: 2rem;
   background-image: linear-gradient(45deg, #ca427d 15%, rgb(208, 96, 71) 55%, rgb(224, 190, 126) 90%);
-  width: auto;
-  height: auto;
+  width: 300px;
+  height: 40px;
   margin:20px;
+  justify-content: center;
 }
+h2{
 
-
-
-
-
+}
