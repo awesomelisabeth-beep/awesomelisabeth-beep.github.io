@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: crimson;transition: 2s ease-in-out;
+    /* animation-name: slide;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out; */
+}
+.box:hover{
+   transform: rotate(180deg);
+   border-bottom: 100px solid rgb(215, 28, 7);
+   transform-origin: top left;
+}
+/* @keyframes slide{
+    0%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(100px);
+    }
+} */
+body{
+    font-size: 10rem;
+}
+img{
+    width: 1000px;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+}

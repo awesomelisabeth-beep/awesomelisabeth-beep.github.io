@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: #111111;
+    transition: background-color 10s ease 5s, left 10s;
+    /* left: 0;
+    position: absolute; */
+    transform-origin: left;
+    /* transition: steps(2) 5s; */
+}
+
+.box:active {
+    background-color: #ffff;
+    transform: scale(3);
+}

@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: darkblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.disappear {
+    animation: movey 10s ease-in-out infinite;
+    /* transform: translateX(1370px);
+    transform: translateY(1000px); */
+
+}
+@keyframes movey{
+    0%, 100%{
+        
+    }
+    25%{
+        transform: translateX(1370px);
+    }
+    50%{
+        transform: translateY(700px);
+    }
+    75%{
+         transform: translateX(0px);
+         transform: translateY(700px);
+    }
+}

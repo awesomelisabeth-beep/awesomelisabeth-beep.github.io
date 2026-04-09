@@ -1,0 +1,43 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: deeppink;
+    border-radius: 100px;
+    animation: kachow 8s ease-in-out infinite;
+    opacity: 1; 
+    position: absolute;
+}
+@keyframes kachow{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+        transform: translateY(700px);
+        border-radius: 0px;
+    }
+    37%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+        border-radius: 100px;
+        transform:translateX(1000px);
+        transform-origin: left;
+    }
+    63%{
+        opacity: 0;
+    }
+    75%{
+        transform:translateY(-700px);
+        opacity: 1;
+    }
+    83%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(-1000px);
+        opacity: 1;
+    }
+
+}

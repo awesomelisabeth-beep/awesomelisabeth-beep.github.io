@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: darkblue;
+    transition: box-shadow 1s cubic-bezier(.2,.8,.2,1), scale 1s ease-in-out;
+}
+.box:hover{
+    box-shadow: 4px 5px 5px pink;
+    scale: 1.5;
+}

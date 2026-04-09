@@ -1,0 +1,24 @@
+.boxie{
+    background-color: rgb(255, 183, 0);
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 0 0 200px rgb(218, 132, 57);
+    border-radius: 350px;
+    transition: transform 10s
+    cubic-bezier(.1,1,.1,5);
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+.boxie:hover{
+    box-shadow: 0 0 300px rgb(189, 212, 225);
+    background-color: rgba(157, 153, 189, 0.365);
+    transform: scale(.9) ;
+}
+.boxie:active{
+    transform: translate(8px, 0) scale(1.05) rotate(1deg);
+}

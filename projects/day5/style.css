@@ -1,0 +1,74 @@
+
+body{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box {
+   width: 100px;
+   height: 100px;
+   background-color: rgb(45, 132, 163);
+   transition: ease-in-out .2s;
+   top: 0;
+   position: absolute;
+   left: 0;
+}
+.box.rot:hover {
+   background-color: rgb(208, 99, 215);
+   rotate: 180deg;
+}
+.box2 {
+   width: 200px;
+   height: 100px;
+   background-color: rgb(163, 45, 159);
+   transition: ease-in-out .2s;
+   left: 0;
+   bottom: 0;
+   position: absolute;
+   border-radius: 50%;
+   
+}
+.box2.rot:hover {
+   background-color: rgb(255, 113, 12);
+   rotate: 180deg;
+}
+.box3 {
+   width: 100px;
+   height: 100px;
+   background-color: rgb(45, 163, 106);
+   transition: ease-in-out .2s;
+   right: 0;
+   top: 0;
+   position: absolute;
+   border-radius: 100px;
+}
+.box3.rot:hover {
+   background-color: rgb(255, 190, 27);
+   rotate: 180deg;
+}
+.box4 {
+    height: 5px;
+    width: 0px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid salmon;
+   transition: ease-in-out .2s;
+   bottom: 0;
+   position:absolute ;
+   right: 0;
+}
+    
+.box4.bot:hover {
+    height: 5px;
+    width: 0px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid rgb(114, 180, 250);
+    rotate: 180deg;
+}
+
+
+

@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: darkblue;
+    border-radius: 100%;
+}
+.disappear {
+    animation: blahblah ease-in-out 2s infinite;
+}
+@keyframes blahblah {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}

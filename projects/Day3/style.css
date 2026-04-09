@@ -1,0 +1,19 @@
+.triangle{
+    height: 5px;
+    width: 0px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid salmon;
+    transition: 2s ease-in-out;
+}
+.triangle:hover{
+   transform: rotate(180deg);
+   border-bottom: 100px solid rgb(215, 28, 7);
+   transform-origin: top left;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
