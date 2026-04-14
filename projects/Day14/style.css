@@ -1,0 +1,42 @@
+.triangle{
+    height: 5px;
+    width: 0px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid salmon;
+    animation: bluh 2s infinite ease-in-out ;
+}
+.trianl{
+     height: 5px;
+    width: 0px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 100px solid salmon;
+    animation: bleh 2s infinite ease-in-out;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+@keyframes bleh{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes bluh{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.box1, .box2{
+    height: 20px;
+    width: 120px;
+    background-color: darkorange;
+    animation: pulse 1s ease-in-out infinite;
+    animation-play-state:"running";
+}
+
