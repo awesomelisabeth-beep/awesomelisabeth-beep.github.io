@@ -1,23 +1,37 @@
+:root{
+  --background: #FDE992;
+  --hovercolor:  #d87cc6;
+  --cardcolor:  #d87c96;
+  --textcolor: black;
+  --pading: 0;
+  --margin: 0;
+  --spacefat: 3rem;
+}
+@media (min-width: 48rem){
+  body {
+    padding: var(--spacefat);
+  }
+}
 main{
   padding: 0;
   margin: 0;
 }
 body{
-    background-color: #FDE992;
-    margin: 0;
-    padding: 0;
+    background-color: var(--background);
+    margin: var(--margin);
+    padding: var(--pading);
 }
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: var(--margin);
+  padding: var(--pading);
 }
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: var(--margin);
+  padding: var(--pading);
   overflow: hidden;
-  background-color: #d87cc6;
+  background-color: var(--hovercolor);
 }
 
 ul li {
@@ -40,7 +54,7 @@ ul li a:hover {
 }
 header{
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: var(--textcolor);
     font-size: xx-large;
 }
 
@@ -59,7 +73,7 @@ img{
   display: inline-block;
   border-radius: 30px;
   margin: 20px;
-  background-color: #d87c96;
+  background-color: var(--cardcolor);
   justify-items: center;
   border: #d8817c;
 }

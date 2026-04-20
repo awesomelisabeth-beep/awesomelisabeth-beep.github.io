@@ -66,7 +66,7 @@ img {
     border-radius: 10px;
 }
 
-h1 {
+h3 {
     text-align: center;
     font-size: 2rem;
     background-image: linear-gradient(45deg, #ca427d 15%, rgb(208, 96, 71) 55%, rgb(224, 190, 126) 90%);
