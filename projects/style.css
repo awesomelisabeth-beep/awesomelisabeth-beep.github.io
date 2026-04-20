@@ -1,7 +1,21 @@
+:root{
+  --background: #FDE992;
+  --hovercolor:  #d87cc6;
+  --cardcolor:  #d87c96;
+  --textcolor: black;
+  --pading: 0;
+  --margin: 0;
+  --spacefat: 3rem;
+}
+@media (min-width: 48rem){
+  body {
+    padding: var(--spacefat);
+  }
+}
 body {
-    background-color: #FDE992;
-    margin: 0;
-    padding: 0;
+    background-color: var(--background);
+    margin: var(--margin);
+    padding: var(--pading);
 }
 
 .container {
@@ -20,7 +34,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #d87cc6;
+    background-color: var(--hovercolor);
 }
 
 ul li {
@@ -29,14 +43,14 @@ ul li {
 
 ul li a {
     display: block;
-    color: rgb(0, 0, 0);
+    color: var(--textcolor);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 ul li a:hover {
-    background-color: #bf5392;
+    background-color: var(--hovercolor);
 }
 
 .navv{
@@ -82,9 +96,9 @@ h2 {
 }
 
 footer {
-    background-color: #d87cc6;
-    margin: 0;
-    padding: 0;
+    background-color: var(--hovercolor);
+    margin: var(--margin);
+    padding: var(--pading);
     height: 50px;
     text-align: center;
     bottom: 0;
