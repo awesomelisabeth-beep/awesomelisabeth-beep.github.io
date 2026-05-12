@@ -9,7 +9,7 @@ function validateLogin(event) {
 
   if (user === correctUser && pass === correctPass) {
     alert("Ur in🦄");
-    window.location.assign("../index.html");
+    window.location.assign("home.html");
   } else {
     alert("Incorrect silly!");
   }
