@@ -76,6 +76,7 @@ img{
   background-color: var(--cardcolor);
   justify-items: center;
   border: #d8817c;
+  text-align: center;
 }
 .page-description{
   width: fit-content;
