@@ -4,8 +4,8 @@ function validateLogin(event) {
   const user = document.getElementById("username").value;
   const pass = document.getElementById("password").value;
 
-  const correctUser = "User1234";
-  const correctPass = "Cheesecake";
+  const correctUser = "user123";
+  const correctPass = "cheesecake";
 
   if (user === correctUser && pass === correctPass) {
     alert("Ur in🦄");

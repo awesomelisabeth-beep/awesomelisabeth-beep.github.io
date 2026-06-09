@@ -16,11 +16,15 @@ body {
     background-color: var(--background);
     margin: var(--margin);
     padding: var(--pading);
+    width: fit-content;
+    margin: auto;
 }
 
 .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    gap: 1rem
 }
 
 ul {
